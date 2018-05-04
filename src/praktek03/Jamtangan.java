@@ -1,10 +1,10 @@
 package praktek03;
 
 public class Jamtangan {
-    String merk;
-    String warna;
-    String jenis;
-    double harga;
+    private String merk;
+    private String warna;
+    private String jenis;
+    private double harga;
     
     void cetakInfo(){
         System.out.println("Merk \t: "+merk+"\n"+
